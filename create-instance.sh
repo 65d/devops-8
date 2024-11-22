@@ -2,7 +2,7 @@
 
 IMAGE_ID="ami-01bc990364452ab3e"
 INSTANCE_TYPE="t2.micro"
-KEY_NAME="key-v"
+KEY_NAME="key"
 SECURITY_GROUP_ID="sg-02e97f1db4c6059a4"
 SUBNET_ID="subnet-0e0a8ff71e33c6727"
 TAG_NAME="$1"
