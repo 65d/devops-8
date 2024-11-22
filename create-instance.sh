@@ -3,8 +3,8 @@
 IMAGE_ID="ami-01bc990364452ab3e"
 INSTANCE_TYPE="t2.micro"
 KEY_NAME="key"
-SECURITY_GROUP_ID="sg-02e97f1db4c6059a4"
-SUBNET_ID="subnet-0e0a8ff71e33c6727"
+SECURITY_GROUP_ID=""
+SUBNET_ID=""
 TAG_NAME="$1"
 
 if [ -z "$TAG_NAME" ]; then
